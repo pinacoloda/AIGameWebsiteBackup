@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.leftcolumn{
+	float: left;
+	background-color: #A9A9A9;
+	width: 50%;
+}
+
+.rightcolumn{
+	float: right;
+	background-color: #A9A9A9;
+	width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+h1{
+	color: #B8860B;
+	 text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+h2{
+	color: #B8860B;
+	 text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}

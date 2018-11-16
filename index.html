@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="mainPage.css">
+	<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+	<style>
+body {
+    font-family: 'VT323';font-size: 22px;
+}
+</style>
+</head>
+<div class="header">
+<div align="center">
+<img src="projectTitle.jpg" alt="projectTitle" width="700" height="300">
+</div>
+</div>
+
+<div class="tab">
+	<button class="tabLinks"><a href="#aug28"><h2>August 28</h2></a></button>
+	<button class="tabLinks"><a href="#sep2"><h2>September 2</h2></a></button>
+	<button class="tabLinks"><a href="#sep9"><h2>September 9</h2></a></button>
+	<button class="tabLinks"><a href="#sep16"><h2>September 16</h2></a></button>
+	<button class="tabLinks"><a href="#sep23"><h2>September 23</h2></a></button>
+	<button class="tabLinks"><a href="#sep30"><h2>September 30</h2></a></button>
+	<button class="tabLinks"><a href="#oct7"><h2>October 7</h2></a></button>
+	<button class="tabLinks"><a href="#oct14"><h2>October 14</h2></a></button>
+	<button class="tabLinks"><a href="#oct21"><h2>October 21</h2></a></button>
+	<button class="tabLinks"><a href="#oct28"><h2>October 28</h2></a></button>
+	<button class="tabLinks"><a href="#nov4"><h2>November 4</h2></a></button>
+	<button class="tabLinks"><a href="#nov11"><h2>November 11</h2></a></button>
+	<button class="tabLinks"><a href="#nov18"><h2>November 18</h2></a></button>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1>CAP4053 AI for Game Programming Group 9</h1>
+      <img src="https://cmmedia.hs.llnwd.net/v1/naspa_2017FC7/images/dmImage/StandardImage/standard_1600x985_UCF-logo2.jpg" alt="UCF LOGO" class="center">
+	  <p style="margin-left: 40px"><b>Team Members:</b><br></br>
+		     Lead animation, I/O, Physics, and script designer - Kevin Wong<br></br>
+			 Lead graphics, Level design, and script designer - Jonathan Billington<br></br>
+			 Lead sound, UI, Level design, and script designer - Michael Hughes</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+	<h1><u>Update Posts</u></h1>
+		<div class="card">
+	    <a name="nov18"></a>
+		<h2>Game Update - Improved collision detection and hitbox register</h2>
+		<h5>November 18, 2018</h5>
+		<p>
+		Added colliders around each limb of the enemy instead of just one box to improve collision detection.
+		Hitbox scripts were changed to now look for an animation to play if a collision is detected to avoid multiple hits.   
+		<img src="zombie.png" class="center">
+		</p>
+	</div>
+		<div class="card">
+	    <a name="nov11"></a>
+		<h2>Game Update - Changed movement script</h2>
+		<h5>November 11, 2018</h5>
+		<p>
+		After receiving feedback from the game demo day we decided we need to revamp our movement controls to improve playability for players.
+		Below is the changed movement script that reflects movement according to the player's input, if they move back the player will turn and face in the direction and so on for each direction.     
+		<img src="newmovement1.png" class="center">
+		<img src="newmovement2.png" class="center">
+		<img src="newmovement3.png" class="center">		
+		</p>
+	</div>	<div class="card">
+	    <a name="nov4"></a>
+		<h2>Game Update - Game demo day</h2>
+		<h5>November 4, 2018</h5>
+		<p>
+		Worked on final touches for the game demo day, implemented new button configurations and allowed players to use controllers to move the character around the map.              
+		Players will now be able to use a ps4 controller if they have one instead of mouse and keyboard.              
+		Added more enemies in the dungeon to fill up the empty space, also added more traps around the areas where most players would explore.
+		</p>
+	</div>
+		<div class="card">
+	    <a name="oct28"></a>
+		<h2>Game Update - Added undead enemys and enemy health bars</h2>
+		<h5>October 28, 2018</h5>
+		<p>
+		Currently the github project is not accepting pushes to code since we reached our file size limit.  We had to share via google drive if we had any changes implemented.
+		Worked on health bars for enemies that would track their hp after damage.  
+		Added a debug key that takes in the bosses current position and allows the demo player to skip the dungeon.
+		Added a new enemy in the game - Undead
+		The undead has 3 health and is relatively easy to kill, however they have fast attacking patterns and usually group up and hide around corners.              
+		<img src="zom.png" class="center">
+		</p>
+	</div>
+		<div class="card">
+	    <a name="oct21"></a>
+		<h2>Break after first playable finished</h2>
+		<h5>October 21, 2018</h5>
+		<p>
+		We all had midterms to study for so we decided as a team to hold off on updates until midterms were finished.
+		</p>
+	</div>
+	<div class="card">
+	    <a name="oct14"></a>
+		<h2>Game Update - First Playable</h2>
+		<h5>October 14, 2018</h5>
+		<p>
+		Our first playable is now up and running.
+		<img src="map.png" class="center">
+		<img src="level.png" class="center">
+		<img src="playable.png" class="center">
+		Added - <br></br>
+		1.  Title screen - Start here, press enter to begin game
+		<br></br>
+		2. Movement - Keyboard and mouse controls movement.
+		<br></br>
+		3. Basic AI - Moves and attacks.
+		<br></br>
+		4. Basic dungeon map
+		<br></br>
+		5. Hit box - Player will die if hit by NPC
+		<br></br>
+		6. Animations and models - Only the paladin, skeletons, and boss exist we'll add more later on
+		<br></br>
+		7. Health and stamina bars
+		<br></br>
+		8. Death/Respawn - Enemy will one shot you and you'll end back up in the starting room.  Also a death screen that Michael created will play and you have to hit enter to continue
+		<br></br>
+		9. Boss/Winning - It triggers the winning screen after killing the boss.
+		<br></br>
+		</p>
+	</div>
+	<div class="card">
+	    <a name="oct7"></a>
+		<h2>Game Update - Hitbox for basic floor trap implemented, player hp and stamina class created</h2>
+		<h5>October 7, 2018</h5>
+		<p>Scripts added - FloorTrapTrigger.cs, PlayerStats.cs, and NeedleHitBox.cs, for better formating please visit our GitHub page linked below.
+		<img src="hitboxImplementation.png" class="center"><br></br>FloorTrapTrigger.cs is our hitbox that controls when the needles pop up when the player steps over the box collider.  An animation
+		will play after 5 seconds.
+		<img src="floorTrapTrigger.png">
+		<br></br>PlayerStats.cs contains the player's hp and stamina currently and will be called from other scripts to be decremented when hit.  Stamina refreshes using a Co-routine that will refresh every 
+		x specified seconds made in the Unity editor.  If a player dies the animation will play, the velocity will be cut to zero, and the player will respawn at the starting point and the hp will be reset.
+		<img src="playerStats.png"><br></br>NeedleHitBox.cs is the hitbox associated with the FloorTrapTrigger.cs hitbox, if it's triggered then the needles will pop up and hit the player, if said player
+		touches the needles they will be decremented a certain amount of health.<img src="needleHitBox.png"><br></br>
+			Scripts edited - PlayerMovement.cs, HitBox.cs, PlayerHitBox.cs, Skeleton_Controller.cs<br></br><br></br>PlayerMovement.cs has been edited so that blocking, attacking, and rolling now lock the player 
+			from moving or performing any other actions while in the current animation.  Direction has been assigned to specific animations to improve the "flow" of the player model.
+			<img src="playerMovement1.png"><img src="playerMovement2.png"><img src="playerMovement3.png"><img src="playerMovement4.png"><br></br>HitBox.cs and PlayerHitBox.cs were slightly modified to implement 
+			the npc's attack so the player can now block or roll to avoid damage from the NPC.                 
+			<img src="HitBox.png"><img src="playerHitBox.png"><br></br>SkeletonController.cs was modified slightly to re-implement attacks so the player can now die from it's attacks.      
+			<img src="SkeletonController1.png"><img src="SkeletonController2.png"><img src="SkeletonController3.png"><br></br>
+			Graphics and UI are still being worked on, they should be in our next patch the following week.
+		</p>
+	</div>
+	<div class="card">
+	    <a name="sep30"></a>
+		<h2>Game Update - Hitbox script tweeked as well as player movement</h2>
+		<h5>September 30, 2018</h5>
+		<p>Schedule of due dates has been created and should be followed to ensure project is successful.
+		<img src="schedule.png" class="center">
+		Hitbox script now works better and registers per hit after attaching the collider to the sword joint instead of the actual sword.  Player movement now has better animation transitions, before
+		it was very clunky and didn't work quite as well as intended.            
+		</p>
+	</div>
+	<div class="card">
+	  <a name="sep23"></a>
+      <h2>Game Update - AI and Hitbox scripts in progress</h2>
+	  <h5>September 23, 2018</h5>
+      <p>Presentations concluded this week and Kevin created a deadline priority list that has to be finished before first playable presentations are due.    
+	  <img src="Deadlineplanning.png" class="center">
+	  <b></b>Scripts that have been added: Skeleton_Controller.cs, PlayerHitBox.cs, HitBox.cs<b></b>
+	  Skeleton_Controller.cs is a script that contains the basic AI for a Skeleton enemy, path traversal is controlled by NavMeshAgent(a built in path finding tool), AI state machine is hard coded
+	  to have states that switch according to player actions.  So far only follow, stop, attack, and death state is currently implemented.                       
+	  <img src="SkeletonController.png" class="center">
+	  PlayerHitBox.cs and HitBox.cs are almost identical in that they take GameObjects such as the player and enemy models and determine if there is a collision with their colliders to determine if hits register or not.
+	  OnTriggerEnter serves this purpose for now until a more smooth aproach can be figured out since it isn't 100% reliably counting hits by the player.  If a player uses the attack button and the collider enters
+	  the collider zone of the object with the script attached, their hp will be decremented.       
+	  <img src="HitBox.png" class="center">
+	  Throughout the week we should have a basic plan for the level design fleshed out so we can start adding assets.  
+      </p>
+    </div>
+	<div class="card">
+	  <a name="sep16"></a>
+      <h2>Presentations for game project ideas</h2>
+	  <h5>September 16, 2018</h5>
+      <p>Presentations started this week and our group coloborated in google slides to create a presentation.<br></br>
+	     We met up during the week outside of class and discussed each topic that needed to be on our slides and created slides accordingly, including many different gifs for examples.<br></br>
+		 The link to the slideshow can found <a href="https://docs.google.com/presentation/d/1-fW0wwnQc4rB-BW4zXo0sDOyc4mMqQ47-l08eC2wwH8/edit?usp=sharing"><b>HERE</b></a>
+      </p>
+    </div>
+	<div class="card">
+	  <a name="sep9"></a>
+      <h2>Basic scripting and assets added into the new Unity project</h2>
+	  <h5>September 9, 2018</h5>
+      <p>
+	     <img src="unityLayout.png" class="center">
+		 Paladin was taken from Mixamo along with some sword and shield animations to use as a base model for our project.
+		 The staircase asset was taken from the StoneKeep asset package found in the unity store.
+		 The walls and floors are basic planes with images stretched on them.<br></br>
+		 Movement.cs will control the 3d model using character controller and reading inputs from WASD on the user's keyboard.
+		 <img src="movement.png" class="center"><br></br>
+		 CameraControl.cs will handle how the 3rd person viewing will be controlled by the player using the mouse's axis as rotation points
+		 <img src="cameracontrol.png" class="center"><br></br>
+		 Walk.cs will control the player's animations when an action is taken and translates it to a boolean trigger within the animator in Unity.
+		 <img src="walk.png" class="center"><br></br>
+		 Code can be found in our github page</p>
+    </div>
+    <div class="card">
+	  <a name="sep2"></a>
+      <h2>First Meeting and game project planning</h2>
+	  <h5>September 2, 2018</h5>
+      <p>Talked about the game, the assets that need to be acquired, what scripts need to be written, and features of the game to implement.  Also talked about who will do what, when everything needs to be finished and 
+	  also created a github page to track project changes.  
+	  <br></br>Github page can be found <a href="https://github.com/pinacoloda/CAP4053-AI-Game-Project"><b>HERE</b></a></p>
+    </div>
+	<div class="card">
+	  <a name="aug28"></a>
+      <h2>A new team is born</h2>
+      <h5>August 28, 2018</h5>
+      <p>Team is established comprising of Kevin Wong, Jonathan Billington, and Michael Hughes; students at the Univeristy of Central Florida.</p>
+    </div>
+  </div>
+</div>
